@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   end
   resources :teachers
   get 'reports/subjects', to: 'reports#subjects'
+  resources :visitors, only: [:index]
 end
