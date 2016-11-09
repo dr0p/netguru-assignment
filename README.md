@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dr0p/netguru-assignment.svg?branch=master)](https://travis-ci.org/dr0p/netguru-assignment)
+
 RoR Workshops
 ================
 
