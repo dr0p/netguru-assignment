@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/dr0p/netguru-assignment.svg?branch=master)](https://travis-ci.org/dr0p/netguru-assignment)
-[![Coverage Status](https://coveralls.io/repos/github/dr0p/netguru-assignment/badge.svg?branch=master)](https://coveralls.io/github/dr0p/netguru-assignment?branch=master)
+<!-- [![Coverage Status](https://coveralls.io/repos/github/dr0p/netguru-assignment/badge.svg?branch=master)](https://coveralls.io/github/dr0p/netguru-assignment?branch=master) -->
 
 RoR Workshops
 ================
