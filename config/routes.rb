@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   end
   get 'reports/subjects', to: 'reports#subjects', as: 'report_subjects'
   resources :visitors, only: [:index]
-  root 'teachers#index'
+  root 'visitors#index'
 end
