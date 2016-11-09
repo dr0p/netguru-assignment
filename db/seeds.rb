@@ -26,6 +26,12 @@ end
   )
 end
 
+Student.find_each do |student|
+  (rand(3)+1).times do
+    StudentPayment.create(student_id: student.id, payment_date: Faker::Date.between(1.years.ago, Date.today))
+  end
+end
+
 students = Student.all
 SubjectItem.all.each do |subject_item|
   subject_item.students << students.sample(rand(1..4))
