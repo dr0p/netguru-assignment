@@ -19,6 +19,8 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'dotenv-rails'
 gem 'gretel'
+gem 'pry-rails'
+gem 'coveralls', require: false
 
 group :development do
   gem 'better_errors'
