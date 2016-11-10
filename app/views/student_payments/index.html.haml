@@ -1,0 +1,13 @@
+- breadcrumb :student_payments
+.subjects
+  list of student payments:
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th.full-name= t('student.columns.full_name')
+        %th.avg-notes= t('student_payments.columns.payment_date')
+    %tbody
+      - student_payments.each do |sp|
+        %tr
+          %td= sp.student.decorate.full_name
+          %td= sp.payment_date
